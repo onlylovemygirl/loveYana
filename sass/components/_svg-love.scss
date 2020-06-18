@@ -1,0 +1,64 @@
+.container-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 729px;
+  height: 561px;
+
+  margin: 0 auto;
+
+  font-family: Caveat;
+}
+.icon-love {
+  position: relative;
+  fill: rgb(99, 20, 20);
+
+  width: 729px;
+  height: 561px;
+  transition: fill 500ms linear;
+  border-radius: 40%;
+}
+
+.icon-love:hover {
+  fill: #f00;
+}
+.texth-svg {
+  position: absolute;
+  top: 350px;
+  left: 280, 5px;
+
+  color: white;
+
+  font-weight: 700;
+  font-size: 60px;
+}
+.textp-svg {
+  position: absolute;
+  top: 400px;
+  left: 280, 5px;
+
+  color: rgb(99, 20, 20);
+
+  font-weight: 700;
+  font-size: 80px;
+  transition: color 500ms linear;
+}
+.textp-svgtwo {
+  position: absolute;
+  top: 480px;
+  left: 280, 5px;
+
+  color: rgb(99, 20, 20);
+
+  font-weight: 700;
+  font-size: 80px;
+  transition: color 500ms linear;
+}
+
+.container-svg:hover .textp-svg {
+  color: black;
+}
+.container-svg:hover .textp-svgtwo {
+  color: black;
+}

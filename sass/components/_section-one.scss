@@ -1,0 +1,90 @@
+.section-one {
+  position: relative;
+  background-color: white;
+  width: 1920px;
+  height: 1080px;
+  font-family: Caveat;
+}
+
+.img-one {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+.img-two {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+
+.img-three {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+.img-four {
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+.img-five {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms linear;
+}
+
+.img-one:hover {
+  transform: translate(350px, 250px) scale(2);
+  z-index: 100;
+}
+.img-two:hover {
+  transform: translate(-350px, 250px) scale(2);
+  z-index: 100;
+}
+.img-three:hover {
+  transform: translate(350px, -200px) scale(2);
+  z-index: 100;
+}
+.img-four:hover {
+  transform: translate(-350px, -250px) scale(2);
+  z-index: 100;
+}
+.img-five:hover {
+  transform: translate(-50%, -50%) scale(2);
+  z-index: 100;
+}
+.photo-pone {
+  color: #00ff0d;
+  margin-left: 150px;
+  font-size: 50px;
+}
+
+.photo-ptwo {
+  color: #0044ff;
+  margin-left: 110px;
+  font-size: 50px;
+}
+.photo-pthree {
+  color: #8400ff;
+  margin-left: 150px;
+  font-size: 50px;
+}
+.photo-pfour {
+  color: #ff0095;
+  margin-left: 150px;
+  font-size: 50px;
+}
+.photo-pfive {
+  margin-left: 150px;
+  font-size: 50px;
+}

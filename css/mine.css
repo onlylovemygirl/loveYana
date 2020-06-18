@@ -1,0 +1,202 @@
+.header {
+  padding-top: 243px;
+  padding-bottom: 205px;
+  background-color: black;
+}
+
+.container-svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 729px;
+  height: 561px;
+  margin: 0 auto;
+  font-family: Caveat;
+}
+
+.icon-love {
+  position: relative;
+  fill: #631414;
+  width: 729px;
+  height: 561px;
+  -webkit-transition: fill 500ms linear;
+  transition: fill 500ms linear;
+  border-radius: 40%;
+}
+
+.icon-love:hover {
+  fill: #f00;
+}
+
+.texth-svg {
+  position: absolute;
+  top: 350px;
+  left: 280, 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.textp-svg {
+  position: absolute;
+  top: 400px;
+  left: 280, 5px;
+  color: #631414;
+  font-weight: 700;
+  font-size: 80px;
+  -webkit-transition: color 500ms linear;
+  transition: color 500ms linear;
+}
+
+.textp-svgtwo {
+  position: absolute;
+  top: 480px;
+  left: 280, 5px;
+  color: #631414;
+  font-weight: 700;
+  font-size: 80px;
+  -webkit-transition: color 500ms linear;
+  transition: color 500ms linear;
+}
+
+.container-svg:hover .textp-svg {
+  color: black;
+}
+
+.container-svg:hover .textp-svgtwo {
+  color: black;
+}
+
+.section-one {
+  position: relative;
+  background-color: white;
+  width: 1920px;
+  height: 1080px;
+  font-family: Caveat;
+}
+
+.img-one {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+
+.img-two {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+
+.img-three {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+
+.img-four {
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+
+.img-five {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+
+.img-one:hover {
+  -webkit-transform: translate(350px, 250px) scale(2);
+          transform: translate(350px, 250px) scale(2);
+  z-index: 100;
+}
+
+.img-two:hover {
+  -webkit-transform: translate(-350px, 250px) scale(2);
+          transform: translate(-350px, 250px) scale(2);
+  z-index: 100;
+}
+
+.img-three:hover {
+  -webkit-transform: translate(350px, -200px) scale(2);
+          transform: translate(350px, -200px) scale(2);
+  z-index: 100;
+}
+
+.img-four:hover {
+  -webkit-transform: translate(-350px, -250px) scale(2);
+          transform: translate(-350px, -250px) scale(2);
+  z-index: 100;
+}
+
+.img-five:hover {
+  -webkit-transform: translate(-50%, -50%) scale(2);
+          transform: translate(-50%, -50%) scale(2);
+  z-index: 100;
+}
+
+.photo-pone {
+  color: #00ff0d;
+  margin-left: 150px;
+  font-size: 50px;
+}
+
+.photo-ptwo {
+  color: #0044ff;
+  margin-left: 110px;
+  font-size: 50px;
+}
+
+.photo-pthree {
+  color: #8400ff;
+  margin-left: 150px;
+  font-size: 50px;
+}
+
+.photo-pfour {
+  color: #ff0095;
+  margin-left: 150px;
+  font-size: 50px;
+}
+
+.photo-pfive {
+  margin-left: 150px;
+  font-size: 50px;
+}
+/*# sourceMappingURL=mine.css.map */

@@ -6,10 +6,17 @@
   font-family: Caveat;
 }
 
+figure {
+  margin: 0;
+}
+
 .img-one {
   position: absolute;
   top: 10px;
   left: 100px;
+
+  display: inline-block;
+
   transform: scale(1);
   transition: transform 250ms linear;
 }
